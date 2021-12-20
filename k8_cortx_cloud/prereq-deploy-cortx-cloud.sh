@@ -182,6 +182,7 @@ namespace=$(echo $namespace | cut -f2 -d'>')
 if [[ "$is_master_node" = true ]]; then
     #installHelm
     echo "already installed helm"
+    
 fi
 
 # Perform the following functions if the 'disk' is provided
