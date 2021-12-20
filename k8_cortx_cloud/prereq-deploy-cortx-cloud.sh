@@ -180,7 +180,8 @@ namespace=$(echo $namespace | cut -f2 -d'>')
 
 # Install helm this is a master node
 if [[ "$is_master_node" = true ]]; then
-    installHelm
+    #installHelm
+    echo "already installed helm"
 fi
 
 # Perform the following functions if the 'disk' is provided
